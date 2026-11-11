@@ -14,6 +14,22 @@
 .assigned>.empty-number{min-width:47px;padding-inline:0}
 .assigned-area .storage-status{margin-top:13px;font-size:11px;line-height:1.6;color:#6f7f5e;max-width:100%}
 .storage-status:empty{display:none}
+.payment-details{margin:23px 0;padding-top:22px;border-top:1px solid var(--line)}
+.payment-heading{display:flex;gap:10px;align-items:center;margin-bottom:12px}
+.payment-heading>span{width:27px;height:27px;display:grid;place-items:center;border-radius:50%;background:#e6ecdc;color:#72845b;font-size:11px}
+.payment-heading h3{font-size:17px;margin:0;font-weight:500}
+.payment-details>p{font-size:12px;line-height:1.8;color:#7a8771}
+.payment-details label{display:block;font-size:11px;font-weight:500;margin:17px 0 8px}
+.pix-copy-row{display:flex;gap:8px;align-items:stretch}
+.pix-copy-row input{flex:1;min-width:0;background:#eef2e5;border:1px solid #d6deca;border-radius:6px;padding:12px 9px;font-size:12px;color:var(--green)}
+.pix-copy-row button{background:#e4ead8;border:1px solid #cbd6b9;border-radius:6px;padding:10px;font-size:11px;white-space:nowrap}
+.pix-copy-row button:hover{background:#d8e3c9}
+.payment-details #pix-status{font-size:11px;min-height:17px;margin-top:8px;color:#647b50}
+.payment-details .payment-next{margin-top:17px}
+dialog .whatsapp-receipt{font-size:12px;gap:12px;padding:16px}
+.payment-details .receipt-number{font-size:11px;text-align:center;margin:9px 0 0}
+dialog #copy{background:transparent;color:var(--green);border-color:#c6d0b9;font-size:12px;padding:13px}
+@media(max-width:420px){.pix-copy-row{flex-wrap:wrap}.pix-copy-row input{flex-basis:100%;font-size:14px}.pix-copy-row button{width:100%;padding:12px;font-size:12px}.payment-details .whatsapp-receipt{font-size:11px}.payment-heading h3{font-size:16px}}
 .nicolau-story{display:grid;grid-template-columns:1fr 1fr;gap:75px;align-items:center;padding-block:75px;border-bottom:1px solid var(--line)}
 .nicolau-gallery{height:430px;position:relative;min-width:0}
 .nicolau-gallery figure{margin:0;overflow:hidden;position:absolute;background:#e8e9dd;border-radius:14px}
