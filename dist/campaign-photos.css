@@ -1,0 +1,36 @@
+.prize-photo-window{position:relative;width:100%;aspect-ratio:1.25;overflow:hidden;border-radius:10px;margin:17px 0;background:#a6a18c}
+.prize-photo-window img{position:absolute;left:0;top:-6%;width:100%;height:auto;display:block}
+.draw-date{display:flex;align-items:center;gap:12px;margin-top:23px;color:var(--green)}
+.date-icon{display:grid;place-items:center;width:39px;height:39px;border:1px solid #d6ddc8;border-radius:10px;font-size:27px;color:#84936e}
+.draw-date>span:last-child{font-size:8px;letter-spacing:1.1px;line-height:1.5;color:#879177}
+.draw-date time{display:block;color:var(--green);font-size:14px;letter-spacing:0;font-weight:600;margin-top:3px}
+.hero-note{margin-top:18px}
+.selection,.checkout{min-width:0}
+.packages{grid-template-columns:repeat(3,minmax(0,1fr))}
+.package{min-width:0}
+.package-bottom{white-space:normal;gap:5px;line-height:1.5}
+.package-bottom i{flex-shrink:0}
+.assigned>span{width:auto;min-width:82px;padding-inline:12px;font-size:16px;letter-spacing:1.2px}
+.assigned>.empty-number{min-width:47px;padding-inline:0}
+.assigned-area .storage-status{margin-top:13px;font-size:11px;line-height:1.6;color:#6f7f5e;max-width:100%}
+.storage-status:empty{display:none}
+.nicolau-story{display:grid;grid-template-columns:1fr 1fr;gap:75px;align-items:center;padding-block:75px;border-bottom:1px solid var(--line)}
+.nicolau-gallery{height:430px;position:relative;min-width:0}
+.nicolau-gallery figure{margin:0;overflow:hidden;position:absolute;background:#e8e9dd;border-radius:14px}
+.nicolau-gallery img{width:100%;height:100%;object-fit:cover;display:block}
+.nicolau-portrait{left:0;top:0;width:68%;height:405px}
+.nicolau-portrait img{object-position:50% 63%}
+.nicolau-portrait:after{content:'';position:absolute;inset:60% 0 0;background:linear-gradient(transparent,#18392eb3)}
+.nicolau-portrait figcaption{position:absolute;left:19px;right:19px;bottom:17px;z-index:1;display:flex;align-items:center;justify-content:space-between;color:#fff;font-size:9px;letter-spacing:1.7px}
+.nicolau-portrait figcaption span{font-size:22px;line-height:1}
+.nicolau-gallery .nicolau-cuddle{right:0;bottom:0;width:44%;height:270px;border:7px solid var(--cream);box-shadow:0 10px 24px #263b2612}
+.nicolau-cuddle img{height:calc(100% - 32px);object-position:50% 64%}
+.nicolau-cuddle figcaption{height:32px;padding:9px 5px;text-align:center;font-size:9px;background:#edf0e4;color:#7c8e6c;white-space:nowrap}
+.gallery-heart{position:absolute;top:30px;right:25px;font-family:Georgia,serif;font-size:57px;color:#a9b28d;transform:rotate(13deg)}
+.nicolau-copy h2{font-size:39px;line-height:1.3;margin-top:17px}
+.nicolau-copy>p{font-size:14px;line-height:1.85;color:#7c8674}
+.nicolau-copy .nicolau-lead{font-size:17px;color:#526b50;margin:22px 0 17px}
+.nicolau-copy .button{margin:12px 0 0;font-size:12px;padding:15px 18px}
+@media(max-width:1050px){.nicolau-story{gap:40px}.nicolau-gallery{height:390px}.nicolau-portrait{height:365px}.nicolau-gallery .nicolau-cuddle{height:240px;width:47%}.nicolau-copy h2{font-size:34px}.nicolau-cuddle figcaption{font-size:8px}.gallery-heart{right:15px}}
+@media(max-width:760px){.prize-photo-window{aspect-ratio:1.25;margin-block:17px}.nicolau-story{grid-template-columns:1fr;gap:30px;padding-block:45px}.nicolau-gallery{height:390px;width:100%;max-width:480px;margin-inline:auto}.nicolau-portrait{height:365px;width:68%}.nicolau-gallery .nicolau-cuddle{height:250px;width:46%}.gallery-heart{top:24px;right:28px}.nicolau-copy h2{font-size:34px}.nicolau-copy .eyebrow{font-size:8px}.nicolau-copy>p{font-size:14px}.nicolau-copy .nicolau-lead{font-size:17px}.draw-date time{font-size:14px}}
+@media(max-width:370px){.nicolau-gallery{height:340px}.nicolau-portrait{height:320px}.nicolau-gallery .nicolau-cuddle{height:210px;width:47%;border-width:5px}.nicolau-cuddle figcaption{font-size:7px}.nicolau-portrait figcaption{font-size:8px;letter-spacing:1px}.gallery-heart{right:19px;font-size:49px}.nicolau-copy h2{font-size:31px}.package{padding-inline:8px}.package>strong{font-size:15px}.price b{font-size:29px}.recommend{font-size:5.5px}}
